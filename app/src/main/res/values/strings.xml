@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <string name="app_name">JessTech BLE Tool</string>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">BLE Device Scan</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+
+    <!-- Main -->
+    <string name="title">JessTech BLE Tool</string>
+    
+    <!-- info -->
+    <string name="label_device_name">Device Name:</string>
+    <string name="label_device_address">BT Address:</string>
+    <string name="label_state">State:</string>
+    <string name="label_device_rssi">RSSI:</string>
+	
+    <!-- option -->
+    <string name="options">Options:</string>
+    <string name="ascii_mode">ASCII Mode</string>
+    <string name="show_service_list">Show Service List</string>
+	
+    <!-- send -->
+    <string name="label_send_data">Send Data:</string>
+    <string name="default_send_text">FD FD FA 05 0D 0A</string>
+    <string name="send">Send</string>
+
+    <!-- receive -->
+    <string name="label_receive">Received Data:</string>
+    <string name="no_data"></string>
+    <string name="btn_clear_received">Clear</string>
+
+</resources>
