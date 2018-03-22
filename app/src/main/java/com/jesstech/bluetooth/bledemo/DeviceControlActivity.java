@@ -394,7 +394,7 @@ public class DeviceControlActivity extends Activity {
                 mDataField.scrollBy(0, mDataField.getLineHeight());
             }
         }
-        Toast.makeText(mBluetoothLeService, data, Toast.LENGTH_SHORT).show();
+        Log.d("-------", data);
     }
 
     // Demonstrates how to iterate through the supported GATT Services/Characteristics.
